@@ -7,26 +7,35 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
         integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css">
     <title>practical training</title>
 </head>
 
 <body>
     <header>
-        <!--nav-->
-        <nav>
-            <a href="./index.html"> <img src="./images/nav/logo.png" alt="logo">Product</a>
+        <div class="container">
+            <!--nav-->
+            <nav class="header">
+                <div class="header-logo"><a class="header-link" href="./index.html"> <img src="./images/nav/logo.png"
+                            alt="logo">Product</a>
+                </div>
+                <ul class="header-list">
+                    <li class="header-list-menu"><a href="./index.html">Product</a></li>
+                    <li class="header-list-menu"><a href="./pricing.html">Pricing</a></li>
+                    <li class="header-list-menu"><a href="./customer.html">Customers</a></li>
+                    <li class="header-list-menu"><a href="resources">Resources</a></li>
+                </ul>
+            </nav>
             <ul>
-                <li><a href="./index.html">Product</a></li>
-                <li><a href="./pricing.html">Pricing</a></li>
-                <li><a href="./customer.html">Customers</a></li>
-                <li><a href="resources">Resources</a></li>
+                <li class="header-btn"><button type="button">Sign In</button></li>
+                <li class="header-btn"><button type="button">Sign Up</button></li>
             </ul>
-        </nav>
-        <ul>
-            <li><button type="button">Sign In</button></li>
-            <li><button type="button">Sign Up</button></li>
-        </ul>
+        </div>
     </header>
     <main>
         <h1>Work at the speed of thought</h1>

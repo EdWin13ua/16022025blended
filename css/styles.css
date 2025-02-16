@@ -1,5 +1,8 @@
+/* #region Reset */
+
 a {
     text-decoration: none;
+    color: inherit;
 }
 
 ul,
@@ -11,6 +14,8 @@ ol {
 
 button {
     cursor: pointer;
+    border: none;
+    font-family: inherit;
 }
 
 h1,
@@ -26,4 +31,47 @@ p {
     font-family: inherit;
 }
 
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
 /* #endregion Reset */
+
+/* #region Standart */
+
+body {
+    font-family: "Poppins", serif;
+    font-size: 16px;
+    background-color: #ffffff;
+    color: #22343d;
+}
+
+.container {
+    width: 1140px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+/* #endregion Standart */
+
+/* #region Header */
+
+.header-logo {
+    width: 178px;
+    height: 36px;
+}
+.header {
+    display: flex;
+    padding: 26px auto;
+}
+
+.header-link {
+}
+
+.header-list {}
+
+.header-btn {}
+
+/* #endregion Header */
